@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+}/*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-init{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: rgb(255, 102, 0);
+    color:black;
+}
+.site-init h1{
+    font-weight: 300;
+}
+.site-init nav a {
+    color:black;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+main .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dedede;
+    height: 10rem;
+    width: 20rem;
+    padding: 1rem;
+
+}
+input {
+    width: 15rem;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+input:first-of-type {
+    margin-top:2rem;
+}
+button {
+    padding: 0.5rem;
+    background-color: black;
+    border:none;
+}
+.login-container input {
+    width: 15rem;
+    padding: 5px;
+    margin-bottom:1rem;
+}
+.login-container button {
+    padding:0.5rem;
+    background-color: black;
+    border:none;
+    color:white;
+}
+.site-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:70vh;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-register{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 5vh;
+    background-color: rgb(255, 102, 0);
+    color:black;
+}
+*/
+
+#b_index {
+    background-image: url("img/WP_F.jpg");
+    background-size: cover;
+}
+
+#b_register {
+    background-image: url("img/WP_M.jpg");
+    background-size: cover;
+}
+#b_users {
+    background-color: rgb(13, 24, 61);
+}
+.site-init{
+    background-color: black;
+    padding:2rem 0;
+    color:white;
+}
+.site-register{
+    background-color: black;
+    padding:2rem 0;
+    color:white;
+}
+
+.form-container{
+    padding:2rem;
+    margin:2%;
+    width:45%;
+    margin-left: auto;
+}
+
+.form-container h2{
+    margin:1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mybutton {
+    margin:1rem;
+}
+
+.login-form {
+    padding:2rem;
+    margin:2%;
+    margin-left:auto;
+    height: 30rem;
+}
+
+.login-form h2 {
+    font-weight: bold;
+    margin-bottom:1rem;
+}
+
+.input-error {
+    border:1px solid red;
+}
+
+nav span a {
+    margin:0 0.3rem;
+    text-decoration: none;
+}
+
+.alert-error {
+    border: 1px solid rgb(126, 0, 0);
+    color: rgb(126, 0, 0);
+    background-color: rgb(214, 35, 125);
+}
+
+.hide {
+    display: none;
+}
+
+.table_card {
+    border-radius: 10px;
+    width:90%;
+    margin: 2% auto;
+    border: 1px solid rgb(109, 109, 109);
+}
+
+.table_border {
+    border: 1px solid rgb(109, 109, 109);
+}
